@@ -1,4 +1,10 @@
+* {
+    color: #ffffff;
+    margin: 1%;
+}
+
 body {
+    background-color: #1f1f1f;
 
 }
 
@@ -6,18 +12,51 @@ header {
 
 }
 
-div {
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+div {
+    align-content: center;
 }
 
 nav {
-
+    flex: 1;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 0;
 }
 
 nav ul {
-    
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: block;
+    padding: 0;
+    color: rgba(236, 236, 236, 0.59);
+}
+
+nav ul li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+article {
+    flex: 4;
+    text-align: left;
 }
 
 footer {
-
+    text-align: center;
+    padding: 2%;
+    position: relative;
 }
